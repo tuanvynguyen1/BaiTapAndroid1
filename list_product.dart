@@ -56,6 +56,7 @@ class _ListViewProductState extends State<ListViewProduct> {
                         width: 40,
                       ),
                       title: Text(p.title),
+                      subtitle: Text(p.description),
                       trailing: ElevatedButton(
                         onPressed: () {
                           var dialog = AlertDialog(
